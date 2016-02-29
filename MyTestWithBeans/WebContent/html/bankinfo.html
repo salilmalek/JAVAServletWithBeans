@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BankInfo</title>
+<style>
+table {
+	border: 1px solid #cccccc;
+}
+</style>
+</head>
+<body>
+	<center>
+		<div height="300" width="300">
+			<form action="/MyTestWithBeans/BankInfo" method="get">
+				<table>
+					<tr>
+						<th>Bank Name</th>
+						<td><select name="bankName">
+								<option value="CitiBank">CitiBank</option>
+								<option value="BankOfAmerica">Bank of America</option>
+								<option value="WellsFargo">Wells Fargo</option>
+						</select></td>
+					</tr>
+					<tr>
+						<th>Account No</th>
+						<td><input type="text" name="account"></td>
+					</tr>
+					<tr>
+						<th>SSN</th>
+						<td><input type="text" name="SSN"></td>
+					</tr>
+					<tr>
+						<td colspan="2"><center>
+								<input type="submit" value="Submit"><input type="reset"
+									value="Reset"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</center>
+</body>
+</html>
